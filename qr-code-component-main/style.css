@@ -1,0 +1,94 @@
+:root {
+  --screen-size-1440px: 1440px;
+  --screen-size-375px: 375px;
+
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+
+  --fs-15px: 15px;
+
+  --padding-card: 10px;
+  /* 
+    6 comes from here =>
+      .card
+        margin-left: 2 * var(--padding-card)
+        padding-left: var(--padding-card)
+        padding-right: var(--padding-card)
+        margin-right: 2 * var(--padding-card)
+   */
+  --img-size: calc(var(--screen-size-375px) - (6 * var(--padding-card)));
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url(./font/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Outfit;
+  margin: 0;
+
+  --padding-x: 40px;
+  --padding-y: calc(2 * var(--padding-x));
+
+  padding: var(--padding-y) var(--padding-x);
+  height: calc(100vh - 2 * var(--padding-y));
+}
+
+main {
+  height: 100%;
+  background-color: var(--light-gray);
+}
+
+.card {
+  color: var(--dark-blue);
+  background-color: var(--white);
+
+  padding: var(--padding-card);
+  margin: calc(2 * var(--padding-card));
+  width: calc(var(--img-size));
+}
+
+main,
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 10px 20px 10px rgba(123, 135, 157, 0.2);
+}
+
+img {
+  height: var(--img-size);
+  width: var(--img-size);
+}
+
+img,
+.card {
+  border-radius: 10px;
+}
+
+p {
+  font-size: var(--fs-15px);
+  color: var(--grayish-blue);
+  margin: 0 0 15px 0;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+h2,
+p {
+  text-align: center;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    --padding-x: 0;
+    height: 100vh;
+  }
+}
