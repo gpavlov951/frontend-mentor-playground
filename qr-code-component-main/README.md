@@ -22,15 +22,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [QR Code Component Solution](https://www.frontendmentor.io/solutions/qr-code-component--5zWTaihgq)
+- Live Site URL: [QR Code Component](https://gpavlov951.github.io/frontend-mentor-playground/qr-code-component-main/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5
-- CSS custom properties
 - Flexbox
 - Mobile-first workflow
 
