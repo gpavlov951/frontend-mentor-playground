@@ -98,13 +98,13 @@ a {
 h1 {
   font-size: 50px;
   text-align: center;
-  margin: 30px 0;
+  margin: 0px 0px 30px;
 }
 
 h2 {
   font-size: 40px;
   text-align: center;
-  margin: 25px 0;
+  margin: 0px 0px 25px;
 }
 
 h3 {
@@ -114,6 +114,10 @@ h3 {
 
 .o-8:hover {
   opacity: 0.8;
+}
+
+.toggle-new-row {
+  display: none;
 }
 
 .text-content {
@@ -136,6 +140,10 @@ h3 {
     --project-img-height: 250px;
   }
 
+  main > * {
+    margin-bottom: 30px;
+  }
+
   nav {
     justify-content: center;
   }
@@ -150,5 +158,9 @@ h3 {
 
   .w-b-break-word {
     word-break: break-word;
+  }
+
+  .toggle-new-row {
+    display: block;
   }
 }
