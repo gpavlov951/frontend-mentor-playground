@@ -68,10 +68,6 @@ nav > :last-child,
   justify-content: space-between;
 }
 
-.j-c-center {
-  justify-content: center;
-}
-
 .ff-digital {
   font-family: Digital;
 }
@@ -129,6 +125,11 @@ h3 {
   max-width: 50%;
 }
 
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .card img {
   height: var(--project-img-height);
 }
@@ -140,8 +141,13 @@ h3 {
     --project-img-height: 250px;
   }
 
-  main > * {
+  main > *,
+  .cards > * {
     margin-bottom: 30px;
+  }
+
+  .cards > :last-child {
+    margin-bottom: 0px;
   }
 
   nav {
@@ -162,5 +168,9 @@ h3 {
 
   .toggle-new-row {
     display: block;
+  }
+
+  .cards {
+    flex-direction: column;
   }
 }
