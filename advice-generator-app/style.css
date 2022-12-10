@@ -57,8 +57,9 @@ main {
   justify-content: center;
 }
 
-h5 {
+h1 {
   letter-spacing: 5px;
+  font-size: 16px;
 }
 
 p {
@@ -67,7 +68,7 @@ p {
   text-align: center;
 }
 
-h5,
+h1,
 p {
   margin-top: 0;
 }
@@ -112,7 +113,7 @@ button:hover {
 }
 
 .attribution a,
-h5 {
+h1 {
   color: var(--neon-green);
 }
 
