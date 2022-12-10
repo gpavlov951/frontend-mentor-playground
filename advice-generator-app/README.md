@@ -21,7 +21,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-<!-- - Solution URL: [Advice generator app Solution](https://www.frontendmentor.io/solutions/qr-code-component--5zWTaihgq) -->
+- Solution URL: [Advice generator app Solution](https://www.frontendmentor.io/solutions/advice-generator-app-CEFGJ7mktu)
 - Live Site URL: [Advice generator app](https://gpavlov951.github.io/frontend-mentor-playground/advice-generator-app/)
 
 ## My process
